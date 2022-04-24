@@ -35,15 +35,10 @@ echo "安装x-ui"
 bash <(curl -Ls https://raw.githubusercontent.com/hkshiqi/shiqix-ui/main/x-ui.sh)
 echo "开始下载必要文件"
 apt-get install unzip
-wget --no-check-certificate -O /root/azure.zip https://github.com/hkshiqi/Azure/archive/refs/heads/main.zip
-unzip /root/azure.zip
-chmod 777 /root/Azure-main/sk.sh
-mkdir /etc/Shadowsocks
-mv -f /root/Azure-main/Shadowsocks/sk5/* /etc/Shadowsocks/
-chmod 777 /etc/Shadowsocks
-cd /root/Azure-main
-echo "启动x-ui出口"
-./sk.sh
-rm -rf /root/Azure-main
-rm -rf /root/azure.zip
+
+
+
+
+
+
 }
